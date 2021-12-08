@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  background-image: url('./img/title.png');
+  width: 100%;
+  height: 200px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.m1{
+  padding-bottom: 20px;
+  padding-right: 180px;
+  padding-left: 10px;
+}
+
+.m2{
+    top: 3%;
+    left: 37%;
+    padding-left: 50px;
+}
+
+.m2 img:hover{
+  transform: scale(1.08);
+
+}
+.m2 img{
+  transition: all 0.1s linear;
+}
+
+a:hover{color: #6559D1;}
+a{color: inherit;}
+
+nav{
+  background-image: url('./img/bg0_4.png');
+  width: 100%;
+  height:2595px;
+}
+
+.sub0{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.text1{
+  box-sizing: border-box;
+  width: 900px;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #393939;
+}
+.text2{
+  box-sizing: border-box;
+  width: 900px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #393939;
+}
+
+.text3{
+  box-sizing: border-box;
+  width: 900px;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #393939;
+}
+
+.text4{
+  box-sizing: border-box;
+  width: 900px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #393939;
+}
+
+footer{
+  background-image: url('./img/last.png');
+  width: 100%;
+  height: 100px;
+}
+
+.home{
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}

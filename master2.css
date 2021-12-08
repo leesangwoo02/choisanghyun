@@ -1,0 +1,114 @@
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  background-image: url('./img/title.png');
+  width: 100%;
+  height: 200px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.m1{
+  padding-bottom: 20px;
+  padding-right: 180px;
+  padding-left: 10px;
+}
+
+.m2{
+    top: 3%;
+    left: 37%;
+    padding-left: 50px;
+}
+
+.m2 img:hover{
+  transform: scale(1.08);
+
+}
+.m2 img{
+  transition: all 0.1s linear;
+}
+
+a:hover{color: #6559D1;}
+a{color: inherit;}
+
+
+nav{
+  background-image: url('./img/bg0_2.png');
+  width: 100%;
+  height: 1620px;
+}
+
+.mi0{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.text1{
+  box-sizing: content-box;
+  width: 900px;
+  font-size: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  color: #202020;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.text2{
+  box-sizing: content-box;
+  width: 900px;
+  font-size: 27px;
+  color: #5B5B5B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text3{
+  box-sizing: content-box;
+  width: 900px;
+  height: 600px;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+p{line-height: 58px;}
+
+strong{
+  font-size: 40px;
+  color: #1F608F;
+}
+
+footer{
+  background-image: url('./img/last.png');
+  width: 100%;
+  height: 100px;
+}
+
+.home{
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
